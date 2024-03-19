@@ -32,7 +32,7 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="1653.59" y="173.359" z="1660.89"/>
+		<Position x="996.876" y="41.0791" z="1283.36"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
@@ -40,13 +40,12 @@
 {
   "AISeed": 0,
   "CircularMap": false,
-  "Description": "You are Elissa -- the sister of the tyrant of Tyre, King Pumayyaton. All your life, you have dreamed of glory but lately, your borther has been increasingly pushing you out of power and out of influence. You sense that is the time to make a move. And what better way to show your abilities to the citizens of Tyre than to a raid a band of Celts who have recently moved in and established a small fishing town on the mainland. \n\nBut first, you must figure out how to get your elephants accross the sea as to take down the settlement's fortifications. Your husband, Acerbas, the High Priest of Melqart, has an idea. A band of pirates holding out on an island to the north-west, has stolen an ancient relic. Should you be able to return it, he will secure enough money to purchase you a ship that will be able to carry the elephants accross the water. But you must be careful - our current ships are weak and can only be used to ferry our soldiers but not for battle. \n\nAI Settings: Player 5 should be on Petra with a difficulty of your choice. All  others should be set to Sandvox. ",
+  "Description": "You are Elissa -- the sister of the tyrant of Tyre, King Pumayyaton. All your life, you have dreamed of glory but lately, your borther has been increasingly pushing you out of power and out of influence. You sense that is the time to make a move. And what better way to show your abilities to the citizens of Tyre than to raid a band of Celts who have recently moved in and established a small fishing town on the mainland. \n\nBut first, you must figure out how to get your elephants accross the sea as to take down the settlement's fortifications. Your husband, Acerbas, the High Priest of Melqart, has an idea. A band of pirates holding out on an island to the north-west, has stolen an ancient relic. Should you be able to return it, he will secure enough money to purchase you a ship that will be able to carry the elephants accross the water. But you must be careful - our current ships are weak and can only be used to ferry our soldiers but not for battle. \n\nAI Settings: Player 5 should be on Petra with a difficulty of your choice. All  others should be set to Sandvox. \n\nCompass: the decorative pegasses that is next to your main character's starting position is the compass. It points North. ",
   "Keywords": [],
   "LockTeams": true,
   "Name": "Carthage 1 - In the Beginning",
   "Nomad": false,
   "PlayerData": [
-    "",
     {
       "Civ": "cart",
       "Color": {
@@ -6194,13 +6193,6 @@
 			<Orientation y="6.87104"/>
 			<Actor seed="33616"/>
 		</Entity>
-		<Entity uid="3487">
-			<Template>structures/cart/tophet</Template>
-			<Player>2</Player>
-			<Position x="1020.0124" z="1020.93494"/>
-			<Orientation y="4.87787"/>
-			<Actor seed="12572"/>
-		</Entity>
 		<Entity uid="3488">
 			<Template>structures/cart/house</Template>
 			<Player>2</Player>
@@ -6571,13 +6563,6 @@
 			<Position x="1003.37696" z="556.38404"/>
 			<Orientation y="1.39373"/>
 			<Actor seed="51815"/>
-		</Entity>
-		<Entity uid="3543">
-			<Template>structures/cart/barracks</Template>
-			<Player>2</Player>
-			<Position x="1155.27552" z="456.54426"/>
-			<Orientation y="3.30285"/>
-			<Actor seed="29011"/>
 		</Entity>
 		<Entity uid="3544">
 			<Template>structures/cart/wonder</Template>
@@ -21840,8 +21825,8 @@
 		<Entity uid="5917">
 			<Template>structures/cart/barracks</Template>
 			<Player>2</Player>
-			<Position x="859.16694" z="916.61054"/>
-			<Orientation y="1.7464"/>
+			<Position x="851.5359" z="912.63477"/>
+			<Orientation y="1.91791"/>
 			<Actor seed="29011"/>
 		</Entity>
 		<Entity uid="5918">
@@ -23079,7 +23064,7 @@
 		<Entity uid="6137">
 			<Template>structures/cart/barracks</Template>
 			<Player>2</Player>
-			<Position x="938.95258" z="650.16858"/>
+			<Position x="935.43622" z="649.5453"/>
 			<Orientation y="0.91524"/>
 			<Actor seed="38735"/>
 		</Entity>
@@ -24706,6 +24691,41 @@
 			<Position x="1736.01221" z="1766.29773"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="9378"/>
+		</Entity>
+		<Entity uid="6386">
+			<Template>gaia/treasure/food_bin</Template>
+			<Player>0</Player>
+			<Position x="1055.50367" z="994.59156"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50530"/>
+		</Entity>
+		<Entity uid="6387">
+			<Template>gaia/treasure/food_bin</Template>
+			<Player>1</Player>
+			<Position x="1054.92322" z="987.03217"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35644"/>
+		</Entity>
+		<Entity uid="6389">
+			<Template>structures/cart/tophet</Template>
+			<Player>2</Player>
+			<Position x="1154.22376" z="453.60456"/>
+			<Orientation y="3.2416"/>
+			<Actor seed="12572"/>
+		</Entity>
+		<Entity uid="6390">
+			<Template>structures/cart/apartment</Template>
+			<Player>2</Player>
+			<Position x="895.3454" z="729.30524"/>
+			<Orientation y="3.0081"/>
+			<Actor seed="12311"/>
+		</Entity>
+		<Entity uid="6391">
+			<Template>structures/cart/apartment</Template>
+			<Player>2</Player>
+			<Position x="908.46991" z="730.78882"/>
+			<Orientation y="2.97349"/>
+			<Actor seed="18619"/>
 		</Entity>
 	</Entities>
 	<Paths/>
