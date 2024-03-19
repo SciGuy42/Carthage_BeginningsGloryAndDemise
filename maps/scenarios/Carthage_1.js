@@ -449,7 +449,7 @@ Trigger.prototype.IdleUnitCheckFast = function(data)
 
 Trigger.prototype.IdleUnitCheck = function(data)
 {
-	warn("idle unit check");
+	//warn("idle unit check");
 	
 	this.DoAfterDelay(30 * 1000,"IdleUnitCheck",null);
 }
@@ -518,11 +518,11 @@ Trigger.prototype.VictoryCheck = function(data)
 	//check to see that player 2 has no units
 	let ccs_5 = TriggerHelper.MatchEntitiesByClass(TriggerHelper.GetEntitiesByPlayer(5),"CivilCentre").filter(TriggerHelper.IsInWorld);
 	
-	warn(ccs_5.length);
+	//warn(ccs_5.length);
 	
 	if (ccs_5.length <= 0)
 	{
-		this.ShowText("We have defeated the Assyrians and secured more than enough treasure to build out fleet. But dark news has reached from Tyre. Your borther, the King, has put your husband to death and is furious with your actions! You are now an exile and have to flee for your life. As you set sail for Cyprus, where your husband has allies, you vow your revenge!","OK","OK");
+		this.ShowText("We have defeated the Assyrians and secured more than enough treasure to build our fleet. But dark news has reached from Tyre. Your borther, the King, has put your husband to death and is furious with your actions! You are now an exile and have to flee for your life. As you set sail for Cyprus, where your husband has allies, you vow your revenge!","OK","OK");
 		
 		this.DoAfterDelay(2 * 1000,"WinGame",null);
 		
@@ -708,7 +708,7 @@ Trigger.prototype.IntervalSpawnAssyrianGuards = function(data)
 	{
 		let soldiers = TriggerHelper.MatchEntitiesByClass(TriggerHelper.GetEntitiesByPlayer(p),"Unit").filter(TriggerHelper.IsInWorld);
 		//warn("found "+ soldiers.length + " soldiers");
-		if (soldiers.length < 150)
+		if (soldiers.length < 175)
 		{
 		
 			let size = 3;
@@ -1104,7 +1104,7 @@ Trigger.prototype.IntervalSpawnGroundAttack = function(data)
 Trigger.prototype.IntervalSpawnTraders = function(data)
 {
 	let e = 5;
-	warn("interval traders");
+	//warn("interval traders");
 	let cmpPlayer = QueryPlayerIDInterface(e);
 	if (cmpPlayer.GetState() != "active")
 	{
@@ -1113,18 +1113,18 @@ Trigger.prototype.IntervalSpawnTraders = function(data)
 	
 	//find how many traders hips we have
 	let traders = TriggerHelper.MatchEntitiesByClass(TriggerHelper.GetEntitiesByPlayer(e), "Trader+Ship").filter(TriggerHelper.IsInWorld);
-	warn("found "+traders.length+" ship");
+	//warn("found "+traders.length+" ship");
 	
 	if (traders.length < 8)
 	{
 		//make list of own markets
 		let markets = TriggerHelper.MatchEntitiesByClass(TriggerHelper.GetEntitiesByPlayer(e), "Dock+Trade").filter(TriggerHelper.IsInWorld);
-		warn("found "+markets.length+" docks");
+		//warn("found "+markets.length+" docks");
 		
 		let markets_others = [];
 		markets_others = markets_others.concat(TriggerHelper.MatchEntitiesByClass(TriggerHelper.GetEntitiesByPlayer(2), "Dock+Trade").filter(TriggerHelper.IsInWorld));
 		markets_others = markets_others.concat(TriggerHelper.MatchEntitiesByClass(TriggerHelper.GetEntitiesByPlayer(4), "Dock+Trade").filter(TriggerHelper.IsInWorld));
-		warn("found "+markets_others.length+" other docks");
+		//warn("found "+markets_others.length+" other docks");
 			
 		if (markets.length > 0 && markets_others.length > 0)
 		{
@@ -1145,7 +1145,8 @@ Trigger.prototype.IntervalSpawnTraders = function(data)
 	{
 		//make list of own markets
 		let markets = TriggerHelper.MatchEntitiesByClass(TriggerHelper.GetEntitiesByPlayer(e), "Market").filter(TriggerHelper.IsInWorld);
-		warn("found "+markets.length+" land markets");
+		
+		//warn("found "+markets.length+" land markets");
 		
 		//make list of trading markets
 		let markets_others = TriggerHelper.MatchEntitiesByClass(TriggerHelper.GetEntitiesByPlayer(3), "Market+!Dock").filter(TriggerHelper.IsInWorld);
