@@ -761,14 +761,14 @@ Trigger.prototype.IntervalAttackCheck = function(data)
 	//check if player 1 has structures
 	let structs = TriggerHelper.MatchEntitiesByClass(TriggerHelper.GetEntitiesByPlayer(1),"Structure").filter(TriggerHelper.IsInWorld);
 	
-	warn("interval check for attacks, probs = "+this.watchAttackProbBaseCurrent+"\t"+this.elitesAttackProbBaseCurrent);
+	//warn("interval check for attacks, probs = "+this.watchAttackProbBaseCurrent+"\t"+this.elitesAttackProbBaseCurrent);
 	
 	if (Math.random() < this.watchAttackProbBaseCurrent && structs.length > 0) //attack happens
 	{
 		let owner = 4;
 		
 		this.DoAfterDelay(10 * 1000,"AssyrianAttack",null);
-		warn("attack");
+		//warn("attack");
 		
 		//spawn some siege
 		let forts = TriggerHelper.MatchEntitiesByClass(TriggerHelper.GetEntitiesByPlayer(2),"Arsenal").filter(TriggerHelper.IsInWorld);
@@ -879,7 +879,7 @@ Trigger.prototype.IntervalSpawnAssyrianGuards = function(data)
 Trigger.prototype.StatusCheck = function(data)
 {
 	this.statusCheckCounter ++;
-	warn("status check counter = "+this.statusCheckCounter);
+	//warn("status check counter = "+this.statusCheckCounter);
 	
 	if (this.statusCheckCounter == 18)
 	{
@@ -908,7 +908,7 @@ Trigger.prototype.CheckForCC = function(data)
 	
 	if (structures.length >= 3) //start after at least 5 structures
 	{
-		warn("starting status check");
+		//warn("starting status check");
 		
 		this.statusCheckCounter = 0;
 		this.DoAfterDelay(30 * 1000,"StatusCheck",null);
@@ -946,11 +946,11 @@ Trigger.prototype.SpawnCavalryAttack = function(data)
 	let target_player = 1;
 	let targets = TriggerHelper.MatchEntitiesByClass(TriggerHelper.GetEntitiesByPlayer(target_player),"Structure").filter(TriggerHelper.IsInWorld);
 	
-	warn("cav attack");
+	//warn("cav attack");
 		
 	if (targets.length > 0)
 	{
-		warn("starting attack in reesponse to structure destroyed");
+		//warn("starting attack in reesponse to structure destroyed");
 		
 		let num_waves = 3;
 		

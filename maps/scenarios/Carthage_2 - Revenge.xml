@@ -32,7 +32,7 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="691.619" y="217.467" z="-19.3882"/>
+		<Position x="659.812" y="88.7292" z="-15.3504"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
@@ -40,14 +40,15 @@
 {
   "AISeed": 0,
   "CircularMap": true,
-  "Description": "You have had to flee Tyre, along with your most loyal supporters and adventurers seeking glory in battle. Stricken by grief due to the murder of your husband, you decide to pay a visit to an Assyrian fort on the way -- and not just any fort, one that currently hosts the general Abibaal as an ambassodr, who is (secretly) your brother's lover. You will have your revenge!\n\nYour objectives are to establish a settlement and raise an army to kill or capture Abibaal. Abibaal is bound to be located in one of the civil centres in the Assyrian fortress. You must search for him and have your revenge!",
+  "Description": "You have had to flee Tyre, along with your most loyal supporters and adventurers seeking glory in battle. Stricken by grief due to the murder of your husband, you decide to pay a visit to an Assyrian fort on the way  to Cyprus - and not just any fort, one that currently hosts the general Abibaal as an ambassodr, who is (secretly) your brother's lover. You will have your revenge!\n\nYour objectives are to establish a settlement and raise an army to kill or capture Abibaal. Abibaal is bound to be located in one of the civil centres in the Assyrian fortress. You must search for him and have your revenge!",
   "Keywords": [
     "new"
   ],
   "LockTeams": true,
-  "Name": "Carthage 2 - Raids",
+  "Name": "Carthage 2 - Revenge",
   "Nomad": true,
   "PlayerData": [
+    "",
     {
       "Civ": "cart",
       "Name": "Dido",
@@ -101,7 +102,7 @@
     }
   ],
   "Preview": "hellas.png",
-  "RevealMap": true,
+  "RevealMap": false,
   "Script": "hellas.js",
   "Seed": 2571,
   "Size": 320,
@@ -4811,7 +4812,7 @@
 		<Entity uid="932">
 			<Template>gaia/rock/temperate_small</Template>
 			<Player>0</Player>
-			<Position x="481.49677" z="1149.42951"/>
+			<Position x="530.18934" z="1198.16065"/>
 			<Orientation y="-4.58562"/>
 		</Entity>
 		<Entity uid="933">
@@ -4883,7 +4884,7 @@
 		<Entity uid="952">
 			<Template>gaia/ore/badlands_large</Template>
 			<Player>0</Player>
-			<Position x="390.6991" z="1017.91584"/>
+			<Position x="493.64106" z="1049.43982"/>
 			<Orientation y="-0.33626"/>
 		</Entity>
 		<Entity uid="953">
@@ -5129,7 +5130,7 @@
 		<Entity uid="1005">
 			<Template>gaia/tree/euro_beech</Template>
 			<Player>0</Player>
-			<Position x="424.00495" z="1133.86725"/>
+			<Position x="436.53968" z="1156.15931"/>
 			<Orientation y="-4.29545"/>
 		</Entity>
 		<Entity uid="1006">
@@ -5705,7 +5706,7 @@
 		<Entity uid="1101">
 			<Template>gaia/tree/poplar_lombardy</Template>
 			<Player>0</Player>
-			<Position x="549.56891" z="343.88807"/>
+			<Position x="640.83033" z="470.89197"/>
 			<Orientation y="-3.99463"/>
 		</Entity>
 		<Entity uid="1102">
@@ -5765,7 +5766,7 @@
 		<Entity uid="1111">
 			<Template>gaia/tree/poplar_lombardy</Template>
 			<Player>0</Player>
-			<Position x="582.45154" z="356.16346"/>
+			<Position x="644.59302" z="467.20206"/>
 			<Orientation y="-2.71244"/>
 		</Entity>
 		<Entity uid="1112">
@@ -5783,7 +5784,7 @@
 		<Entity uid="1114">
 			<Template>gaia/tree/poplar_lombardy</Template>
 			<Player>0</Player>
-			<Position x="592.55384" z="392.43299"/>
+			<Position x="653.09833" z="473.35706"/>
 			<Orientation y="1.45203"/>
 		</Entity>
 		<Entity uid="1115">
@@ -5843,7 +5844,7 @@
 		<Entity uid="1124">
 			<Template>gaia/tree/poplar_lombardy</Template>
 			<Player>0</Player>
-			<Position x="608.28919" z="332.87775"/>
+			<Position x="631.8307" z="445.60389"/>
 			<Orientation y="-3.83762"/>
 		</Entity>
 		<Entity uid="1125">
@@ -10900,174 +10901,6 @@
 			<Orientation y="2.35621"/>
 			<Actor seed="7313"/>
 		</Entity>
-		<Entity uid="2114">
-			<Template>units/pers/support_healer_e</Template>
-			<Player>4</Player>
-			<Position x="700.30384" z="1077.15711"/>
-			<Orientation y="-3.692"/>
-			<Actor seed="16617"/>
-		</Entity>
-		<Entity uid="2115">
-			<Template>units/pers/support_healer_e</Template>
-			<Player>4</Player>
-			<Position x="698.06794" z="1071.12232"/>
-			<Orientation y="-3.692"/>
-			<Actor seed="18719"/>
-		</Entity>
-		<Entity uid="2116">
-			<Template>units/pers/support_healer_e</Template>
-			<Player>4</Player>
-			<Position x="693.80921" z="1067.09021"/>
-			<Orientation y="-3.692"/>
-			<Actor seed="33510"/>
-		</Entity>
-		<Entity uid="2117">
-			<Template>units/pers/support_healer_e</Template>
-			<Player>4</Player>
-			<Position x="696.98737" z="1064.30591"/>
-			<Orientation y="-3.692"/>
-			<Actor seed="1509"/>
-		</Entity>
-		<Entity uid="2118">
-			<Template>units/pers/support_healer_e</Template>
-			<Player>4</Player>
-			<Position x="700.6568" z="1067.53919"/>
-			<Orientation y="-3.692"/>
-			<Actor seed="26521"/>
-		</Entity>
-		<Entity uid="2119">
-			<Template>units/pers/support_healer_e</Template>
-			<Player>4</Player>
-			<Position x="703.83783" z="1072.79065"/>
-			<Orientation y="-3.692"/>
-			<Actor seed="62290"/>
-		</Entity>
-		<Entity uid="2120">
-			<Template>units/pers/support_healer_e</Template>
-			<Player>4</Player>
-			<Position x="708.15851" z="1070.70374"/>
-			<Orientation y="-3.692"/>
-			<Actor seed="61394"/>
-		</Entity>
-		<Entity uid="2121">
-			<Template>units/pers/support_healer_e</Template>
-			<Player>4</Player>
-			<Position x="704.63947" z="1064.96473"/>
-			<Orientation y="-3.692"/>
-			<Actor seed="59646"/>
-		</Entity>
-		<Entity uid="2122">
-			<Template>units/pers/support_healer_e</Template>
-			<Player>4</Player>
-			<Position x="700.92078" z="1059.76978"/>
-			<Orientation y="-3.692"/>
-			<Actor seed="63729"/>
-		</Entity>
-		<Entity uid="2123">
-			<Template>units/pers/support_healer_e</Template>
-			<Player>4</Player>
-			<Position x="696.85346" z="1056.88526"/>
-			<Orientation y="-3.692"/>
-			<Actor seed="36107"/>
-		</Entity>
-		<Entity uid="2124">
-			<Template>units/pers/support_healer_e</Template>
-			<Player>4</Player>
-			<Position x="693.49" z="1059.90943"/>
-			<Orientation y="-3.692"/>
-			<Actor seed="27667"/>
-		</Entity>
-		<Entity uid="2125">
-			<Template>units/pers/support_healer_e</Template>
-			<Player>4</Player>
-			<Position x="689.79365" z="1062.6283"/>
-			<Orientation y="-3.692"/>
-			<Actor seed="15487"/>
-		</Entity>
-		<Entity uid="2130">
-			<Template>units/pers/support_healer_e</Template>
-			<Player>4</Player>
-			<Position x="704.42432" z="1081.03943"/>
-			<Orientation y="-3.69198"/>
-			<Actor seed="15487"/>
-		</Entity>
-		<Entity uid="2131">
-			<Template>units/pers/support_healer_e</Template>
-			<Player>4</Player>
-			<Position x="708.12061" z="1078.32056"/>
-			<Orientation y="-3.69198"/>
-			<Actor seed="27667"/>
-		</Entity>
-		<Entity uid="2132">
-			<Template>units/pers/support_healer_e</Template>
-			<Player>4</Player>
-			<Position x="711.48414" z="1075.2964"/>
-			<Orientation y="-3.69198"/>
-			<Actor seed="36107"/>
-		</Entity>
-		<Entity uid="2133">
-			<Template>units/pers/support_healer_e</Template>
-			<Player>4</Player>
-			<Position x="715.5514" z="1078.1808"/>
-			<Orientation y="-3.69198"/>
-			<Actor seed="63729"/>
-		</Entity>
-		<Entity uid="2134">
-			<Template>units/pers/support_healer_e</Template>
-			<Player>4</Player>
-			<Position x="719.27015" z="1083.37586"/>
-			<Orientation y="-3.69198"/>
-			<Actor seed="59646"/>
-		</Entity>
-		<Entity uid="2135">
-			<Template>units/pers/support_healer_e</Template>
-			<Player>4</Player>
-			<Position x="722.78913" z="1089.11487"/>
-			<Orientation y="-3.69198"/>
-			<Actor seed="61394"/>
-		</Entity>
-		<Entity uid="2136">
-			<Template>units/pers/support_healer_e</Template>
-			<Player>4</Player>
-			<Position x="718.46851" z="1091.20179"/>
-			<Orientation y="-3.69198"/>
-			<Actor seed="62290"/>
-		</Entity>
-		<Entity uid="2137">
-			<Template>units/pers/support_healer_e</Template>
-			<Player>4</Player>
-			<Position x="715.28742" z="1085.95032"/>
-			<Orientation y="-3.69198"/>
-			<Actor seed="26521"/>
-		</Entity>
-		<Entity uid="2138">
-			<Template>units/pers/support_healer_e</Template>
-			<Player>4</Player>
-			<Position x="711.61805" z="1082.71705"/>
-			<Orientation y="-3.69198"/>
-			<Actor seed="1509"/>
-		</Entity>
-		<Entity uid="2139">
-			<Template>units/pers/support_healer_e</Template>
-			<Player>4</Player>
-			<Position x="708.37806" z="1085.39515"/>
-			<Orientation y="-3.69198"/>
-			<Actor seed="33510"/>
-		</Entity>
-		<Entity uid="2140">
-			<Template>units/pers/support_healer_e</Template>
-			<Player>4</Player>
-			<Position x="712.69855" z="1089.53345"/>
-			<Orientation y="-3.69198"/>
-			<Actor seed="18719"/>
-		</Entity>
-		<Entity uid="2141">
-			<Template>units/pers/support_healer_e</Template>
-			<Player>4</Player>
-			<Position x="714.93451" z="1095.56824"/>
-			<Orientation y="-3.69198"/>
-			<Actor seed="16617"/>
-		</Entity>
 		<Entity uid="2142">
 			<Template>structures/pers/defense_tower</Template>
 			<Player>2</Player>
@@ -11144,6 +10977,202 @@
 			<Position x="384.19626" z="947.94574"/>
 			<Orientation y="2.3248"/>
 			<Actor seed="5678"/>
+		</Entity>
+		<Entity uid="2190">
+			<Template>units/pers/support_healer_a</Template>
+			<Player>4</Player>
+			<Position x="751.26679" z="1066.37464"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17232"/>
+		</Entity>
+		<Entity uid="2191">
+			<Template>units/pers/support_healer_a</Template>
+			<Player>4</Player>
+			<Position x="753.67621" z="1064.95057"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11613"/>
+		</Entity>
+		<Entity uid="2192">
+			<Template>units/pers/support_healer_a</Template>
+			<Player>4</Player>
+			<Position x="756.04444" z="1062.7782"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16000"/>
+		</Entity>
+		<Entity uid="2193">
+			<Template>units/pers/support_healer_a</Template>
+			<Player>4</Player>
+			<Position x="758.27625" z="1060.8777"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38099"/>
+		</Entity>
+		<Entity uid="2194">
+			<Template>units/pers/support_healer_a</Template>
+			<Player>4</Player>
+			<Position x="760.60859" z="1059.06092"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4214"/>
+		</Entity>
+		<Entity uid="2195">
+			<Template>units/pers/support_healer_a</Template>
+			<Player>4</Player>
+			<Position x="758.57209" z="1057.13392"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63770"/>
+		</Entity>
+		<Entity uid="2196">
+			<Template>units/pers/support_healer_a</Template>
+			<Player>4</Player>
+			<Position x="756.94214" z="1058.57483"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57400"/>
+		</Entity>
+		<Entity uid="2197">
+			<Template>units/pers/support_healer_a</Template>
+			<Player>4</Player>
+			<Position x="754.56952" z="1060.94825"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29902"/>
+		</Entity>
+		<Entity uid="2198">
+			<Template>units/pers/support_healer_a</Template>
+			<Player>4</Player>
+			<Position x="752.62262" z="1062.4048"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58275"/>
+		</Entity>
+		<Entity uid="2199">
+			<Template>units/pers/support_healer_a</Template>
+			<Player>4</Player>
+			<Position x="750.5691" z="1064.17493"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33268"/>
+		</Entity>
+		<Entity uid="2200">
+			<Template>units/pers/support_healer_a</Template>
+			<Player>4</Player>
+			<Position x="749.32233" z="1062.26807"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="5268"/>
+		</Entity>
+		<Entity uid="2201">
+			<Template>units/pers/support_healer_a</Template>
+			<Player>4</Player>
+			<Position x="751.28266" z="1060.19397"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="28698"/>
+		</Entity>
+		<Entity uid="2202">
+			<Template>units/pers/support_healer_a</Template>
+			<Player>4</Player>
+			<Position x="753.14924" z="1058.1438"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9416"/>
+		</Entity>
+		<Entity uid="2203">
+			<Template>units/pers/support_healer_a</Template>
+			<Player>4</Player>
+			<Position x="755.27704" z="1056.3672"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46242"/>
+		</Entity>
+		<Entity uid="2204">
+			<Template>units/pers/support_healer_a</Template>
+			<Player>4</Player>
+			<Position x="756.87281" z="1054.58875"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36841"/>
+		</Entity>
+		<Entity uid="2205">
+			<Template>units/pers/support_healer_a</Template>
+			<Player>4</Player>
+			<Position x="755.74305" z="1052.03882"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35875"/>
+		</Entity>
+		<Entity uid="2206">
+			<Template>units/pers/support_healer_a</Template>
+			<Player>4</Player>
+			<Position x="753.7447" z="1053.97364"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36953"/>
+		</Entity>
+		<Entity uid="2207">
+			<Template>units/pers/support_healer_a</Template>
+			<Player>4</Player>
+			<Position x="752.30634" z="1056.05713"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19067"/>
+		</Entity>
+		<Entity uid="2208">
+			<Template>units/pers/support_healer_a</Template>
+			<Player>4</Player>
+			<Position x="750.33521" z="1057.02515"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12734"/>
+		</Entity>
+		<Entity uid="2209">
+			<Template>units/pers/support_healer_a</Template>
+			<Player>4</Player>
+			<Position x="748.10132" z="1059.66883"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12599"/>
+		</Entity>
+		<Entity uid="2210">
+			<Template>gaia/treasure/shipwreck_ram_bow</Template>
+			<Player>0</Player>
+			<Position x="1231.17713" z="791.87647"/>
+			<Orientation y="-2.25023"/>
+			<Actor seed="27113"/>
+		</Entity>
+		<Entity uid="2211">
+			<Template>gaia/treasure/stone</Template>
+			<Player>0</Player>
+			<Position x="1218.73609" z="800.68787"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="21286"/>
+		</Entity>
+		<Entity uid="2212">
+			<Template>gaia/treasure/stone</Template>
+			<Player>0</Player>
+			<Position x="1216.0149" z="807.99292"/>
+			<Orientation y="2.17594"/>
+			<Actor seed="37521"/>
+		</Entity>
+		<Entity uid="2213">
+			<Template>gaia/treasure/shipwreck_sail_boat</Template>
+			<Player>0</Player>
+			<Position x="283.76951" z="372.79142"/>
+			<Orientation y="2.46052"/>
+			<Actor seed="3046"/>
+		</Entity>
+		<Entity uid="2214">
+			<Template>gaia/treasure/metal</Template>
+			<Player>0</Player>
+			<Position x="295.03895" z="378.91486"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="34638"/>
+		</Entity>
+		<Entity uid="2215">
+			<Template>gaia/treasure/metal</Template>
+			<Player>0</Player>
+			<Position x="291.96036" z="382.29093"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45950"/>
+		</Entity>
+		<Entity uid="2216">
+			<Template>gaia/treasure/metal</Template>
+			<Player>0</Player>
+			<Position x="289.15607" z="381.26578"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33307"/>
+		</Entity>
+		<Entity uid="2222">
+			<Template>gaia/tree/aleppo_pine</Template>
+			<Player>0</Player>
+			<Position x="289.79862" z="376.05835"/>
+			<Orientation y="-3.49642"/>
+			<Actor seed="1164"/>
 		</Entity>
 	</Entities>
 	<Paths/>
