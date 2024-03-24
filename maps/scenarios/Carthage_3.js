@@ -664,14 +664,21 @@ Trigger.prototype.OwnershipChangedAction = function(data)
 		
 	}
 	
-	if (data.from == 0 && data.to == -1)
+	if (data.from == 0 && (data.to == -1 || data.to == 1))
 	{
+		
+		
 		//check if soldier
 		let id = Engine.QueryInterface(data.entity, IID_Identity);
+		
+		//warn(uneval(id.classesList));
+		
 		if (id && id.classesList.indexOf("Soldier") >= 0)
 		{
 			//find out which cluster
 			let target_cluster = -1;
+			
+			warn("checking "+this.gaiaClusters.length+" cluster");
 			
 			for (let i = 0; i < this.gaiaClusters.length; i ++)
 			{
@@ -682,7 +689,7 @@ Trigger.prototype.OwnershipChangedAction = function(data)
 				}
 			}
 			
-			//warn("target cluster = "+target_cluster);
+			warn("target cluster = "+target_cluster+" with "+this.gaiaClusters[target_cluster].length+" units");
 			
 			if (target_cluster != -1)
 			{
@@ -698,6 +705,10 @@ Trigger.prototype.OwnershipChangedAction = function(data)
 					}
 				}
 			}
+		}
+		else if (id && id.classesList.indexOf("Corral") >= 0)
+		{
+			let sheep = TriggerHelper.SpawnUnits(data.entity, "gaia/fauna_sheep_trainable",8,1);
 		}
 	}
 
@@ -1257,16 +1268,16 @@ Trigger.prototype.ClusterUnits = function(units,num_clusters)
 Trigger.prototype.InitGaiaClusters = function(data)
 {
 	//get all gaia soldiers
-	let soldiers = TriggerHelper.MatchEntitiesByClass(TriggerHelper.GetEntitiesByPlayer(0), "Unit+!Elephant+!Siege").filter(TriggerHelper.IsInWorld);
+	let soldiers = TriggerHelper.MatchEntitiesByClass(TriggerHelper.GetEntitiesByPlayer(0), "Soldier+!Elephant+!Siege").filter(TriggerHelper.IsInWorld);
 	
-	//warn("Found "+soldiers.length+" gaia soldiers.");
+	warn("Found "+soldiers.length+" gaia soldiers.");
 	
 	//cluster them
 	let num_clusters = 2;
 	
 	
 	let clusters = this.ClusterUnits(soldiers,num_clusters);
-	//warn(uneval(clusters));
+	warn(uneval(clusters));
 	
 	//store so we can check when a unit is killed, who its buddies are
 	this.gaiaClusters = clusters;
@@ -1377,6 +1388,15 @@ Trigger.prototype.StatusCheck = function(data)
 	this.statusCheckCounter += 1;
 	
 	warn("status check counter = "+uneval(this.statusCheckCounter));
+	
+	//check of we have won
+	let ccs_assyrians = TriggerHelper.MatchEntitiesByClass(TriggerHelper.GetEntitiesByPlayer(2), "CivilCentre").filter(TriggerHelper.IsInWorld);
+	let ccs_greeks = TriggerHelper.MatchEntitiesByClass(TriggerHelper.GetEntitiesByPlayer(5), "CivilCentre").filter(TriggerHelper.IsInWorld);
+	
+	if (ccs_assyrians.length == 0 && ccs_greeks.length == 0)
+	{
+		TriggerHelper.SetPlayerWon(1,this.VictoryTextFn,this.VictoryTextFn);	
+	}
 	
 }
 

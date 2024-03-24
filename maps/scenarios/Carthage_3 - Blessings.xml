@@ -32,7 +32,7 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="1440.03" y="86.5999" z="128.361"/>
+		<Position x="1458.76" y="99.9649" z="104.107"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
@@ -40,12 +40,13 @@
 {
   "AISeed": 0,
   "CircularMap": true,
-  "Description": "You have finally arrived in Kition, a Tyrian colony in Cyprus where your husband's brother is the  head priest of Astarte. You grieve your husband's death together. But work is to be done. The priest is ready to provide Astarte's blessing for your journey but there is trouble that needs to be dealt with first. News of your assult on the Assyrian fortress has reached these lands and the general in the Assyrian colony to the West of us has vowed revenge. To the north east, a band of Greeks live in the hills and have decided that now is the time to plunder. You must help Kition defend itself. Defeat the Assyrians and the Greeks!\n\nYour scouts report that there are friendly traders in the area -- we should search by boat and within land. We do not have the resources to establish a settlement and willl need to rely on trade to support our forces. \n\nDirectly to the north, our scouts report the presence of barbarians -- they may have useful loot and perhaps even weapons that will be useful to us. \n\nAI Settings: Greek Traders should be set to Sandbox. Everyone else, Petra with a difficulty of your chioce. ",
+  "Description": "Chapter 3: Blessings\n\nYou have finally arrived in Kition, a Tyrian colony in Cyprus where your husband's brother is the head priest of Astarte. You grieve your husband's death together. But work is to be done. The priest is ready to provide Astarte's blessing for your journey but there is trouble that needs to be dealt with first. News of your assault on the Assyrian fortress has reached these lands and the general in the Assyrian colony to the West of us has vowed revenge. To the north east, a band of Greeks live in the hills and have decided that now is the time to plunder. You must help Kition defend itself. Defeat the Assyrians and the Greeks!\n\nYour scouts report that there are friendly traders in the area -- we should search by boat and within land. We do not have the resources to establish a settlement and will need to rely on trade to support our forces.\n\nDirectly to the north, our scouts report the presence of barbarians -- they may have useful loot and perhaps even weapons that will be helpful to us.\n\nAI Settings: Greek Traders should be set to Sandbox. Everyone else, Petra with a difficulty of your choice.\n\nNote: any buildings you capture will not decay due to lack of culture influence.\n\n\n",
   "Keywords": [],
   "LockTeams": true,
   "Name": "Carthage 3 - Blessings",
   "Nomad": true,
   "PlayerData": [
+    "",
     {
       "Civ": "cart",
       "Name": "Elisa",
@@ -42910,14 +42911,14 @@
 		<Entity uid="7592">
 			<Template>structures/merc_camp_egyptian</Template>
 			<Player>1</Player>
-			<Position x="1449.95411" z="269.7865"/>
-			<Orientation y="-0.98862"/>
+			<Position x="1451.20472" z="278.69468"/>
+			<Orientation y="-0.7467"/>
 			<Actor seed="47174"/>
 		</Entity>
 		<Entity uid="7593">
 			<Template>structures/cart/temple</Template>
 			<Player>1</Player>
-			<Position x="1482.79627" z="304.9314"/>
+			<Position x="1480.47999" z="304.74488"/>
 			<Orientation y="2.4322"/>
 			<Actor seed="4711"/>
 		</Entity>
@@ -43225,8 +43226,8 @@
 		<Entity uid="7641">
 			<Template>structures/cart/stable</Template>
 			<Player>1</Player>
-			<Position x="1515.08777" z="327.57343"/>
-			<Orientation y="-9.71438"/>
+			<Position x="1498.85315" z="340.60923"/>
+			<Orientation y="-10.1075"/>
 			<Actor seed="16652"/>
 		</Entity>
 		<Entity uid="7644">
@@ -46431,7 +46432,7 @@
 		<Entity uid="8118">
 			<Template>structures/cart/corral</Template>
 			<Player>0</Player>
-			<Position x="2002.02417" z="1006.487"/>
+			<Position x="2000.81702" z="1010.83021"/>
 			<Orientation y="-3.12243"/>
 			<Actor seed="8930"/>
 		</Entity>
@@ -46448,6 +46449,55 @@
 			<Position x="1981.6272" z="996.6305"/>
 			<Orientation y="1.52074"/>
 			<Actor seed="16169"/>
+		</Entity>
+		<Entity uid="8137">
+			<Template>gaia/fauna_horse</Template>
+			<Player>0</Player>
+			<Position x="1685.047" z="370.5818"/>
+			<Orientation y="2.33602"/>
+			<Actor seed="5663"/>
+		</Entity>
+		<Entity uid="8138">
+			<Template>gaia/fauna_horse</Template>
+			<Player>0</Player>
+			<Position x="1688.95887" z="379.82255"/>
+			<Orientation y="-0.50565"/>
+			<Actor seed="5665"/>
+		</Entity>
+		<Entity uid="8139">
+			<Template>gaia/fauna_horse</Template>
+			<Player>0</Player>
+			<Position x="1693.90833" z="377.09281"/>
+			<Orientation y="-3.6667"/>
+			<Actor seed="5665"/>
+		</Entity>
+		<Entity uid="8140">
+			<Template>gaia/fauna_horse</Template>
+			<Player>0</Player>
+			<Position x="1694.58667" z="387.8249"/>
+			<Orientation y="-0.82503"/>
+			<Actor seed="5663"/>
+		</Entity>
+		<Entity uid="8141">
+			<Template>gaia/fauna_horse</Template>
+			<Player>0</Player>
+			<Position x="1694.54224" z="364.4946"/>
+			<Orientation y="-3.12882"/>
+			<Actor seed="5663"/>
+		</Entity>
+		<Entity uid="8142">
+			<Template>gaia/fauna_horse</Template>
+			<Player>0</Player>
+			<Position x="1688.51246" z="358.3259"/>
+			<Orientation y="-0.23432"/>
+			<Actor seed="5664"/>
+		</Entity>
+		<Entity uid="8143">
+			<Template>gaia/fauna_horse</Template>
+			<Player>0</Player>
+			<Position x="1699.40943" z="351.06998"/>
+			<Orientation y="-0.45336"/>
+			<Actor seed="5663"/>
 		</Entity>
 	</Entities>
 	<Paths/>
