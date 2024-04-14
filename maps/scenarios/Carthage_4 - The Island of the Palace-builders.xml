@@ -32,7 +32,7 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="1655.6" y="93.8192" z="402.23"/>
+		<Position x="650.656" y="111.913" z="702.639"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
@@ -40,13 +40,12 @@
 {
   "AISeed": 0,
   "CircularMap": true,
-  "Description": "After securing blessing at Kition, you continue to sail West, in search of new lands to settle. As supplies run low, you make a stop at Crete, the island of the palace-builders. You remembber the lessons from childhood, about a great people who lived on the island, their palaces and wall paintings. All of that is history though, Dorians from the North have been raiding the islands for centuries and there is little left of the palace-builders. \n\nYou have dispatched two of your most loyal servants with a small contingent to secure food supplies. The hills nearby are inhabited by herders -- we must capture their corrals and secure a total of 650 animals for the journey ahead. To the West, lies a small Minoan settlement that we can trade with. Further to the North is a Dorrian city, well fortified and protected -- we must beware! We are likely to face attacks both on land and sea so build up your forces fast! News of our arrival has apread and we can expect a much larger Dorian army to arrive within 2 weeks time (~50 minutes game play) -- we must secure the animals by then! \n\nAI Settings:\n\nDorians and Minoans should be set to Petra with a difficulty of your choice. All others should be Sandbox. ",
+  "Description": "After securing blessing at Kition, you continue to sail West, in search of new lands to settle. As supplies run low, you make a stop at Crete, the island of the palace-builders. You remembber the lessons from childhood, about a great people who lived on the island, their palaces and wall paintings. All of that is history is gone though, Dorians from the North have been raiding the islands for centuries and there is little left of the palace-builders. \n\nYou have dispatched two of your most loyal servants with a small contingent to secure food supplies. The hills nearby are inhabited by herders -- we must capture their corrals and secure a total of 650 animals for the journey ahead. To the West, lies a small Minoan settlement that we can trade with. Further to the North is a Dorrian city, well fortified and protected -- we must beware! We are likely to face attacks both on land and sea so build up your forces fast! News of our arrival has spread and we can expect a much larger Dorian army to arrive within 2 weeks time (~50 minutes game play) -- we must secure the animals by then! \n\nAI Settings:\n\nDorians and Minoans should be set to Petra with a difficulty of your choice. All others should be Sandbox. ",
   "Keywords": [],
   "LockTeams": true,
   "Name": "Carthage 4 - The Island of the Palace-builders",
   "Nomad": true,
   "PlayerData": [
-    "",
     {
       "Civ": "cart",
       "Color": {
@@ -31151,7 +31150,7 @@
 		<Entity uid="5632">
 			<Template>units/cart/ship_merchant</Template>
 			<Player>1</Player>
-			<Position x="675.27851" z="660.61518"/>
+			<Position x="674.47272" z="660.18104"/>
 			<Orientation y="-3.59464"/>
 			<Actor seed="39434"/>
 		</Entity>
@@ -32467,7 +32466,7 @@
 		<Entity uid="5849">
 			<Template>gaia/treasure/food_crate</Template>
 			<Player>0</Player>
-			<Position x="807.8509" z="107.91135"/>
+			<Position x="807.74006" z="107.98681"/>
 			<Orientation y="-0.84607"/>
 			<Actor seed="9747"/>
 		</Entity>
@@ -32694,6 +32693,104 @@
 			<Position x="1608.17676" z="499.82947"/>
 			<Orientation y="2.07592"/>
 			<Obstruction group="5830"/>
+		</Entity>
+		<Entity uid="5882">
+			<Template>gaia/treasure/food_jars</Template>
+			<Player>0</Player>
+			<Position x="1956.2245" z="673.45356"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="41298"/>
+		</Entity>
+		<Entity uid="5883">
+			<Template>gaia/treasure/wood_lumber</Template>
+			<Player>0</Player>
+			<Position x="1958.61158" z="666.32441"/>
+			<Orientation y="-1.3726"/>
+			<Actor seed="49829"/>
+		</Entity>
+		<Entity uid="5884">
+			<Template>gaia/fish/generic</Template>
+			<Player>0</Player>
+			<Position x="1240.61341" z="385.76017"/>
+			<Orientation y="-4.74463"/>
+			<Actor seed="4297"/>
+		</Entity>
+		<Entity uid="5885">
+			<Template>gaia/fish/generic</Template>
+			<Player>0</Player>
+			<Position x="1185.66321" z="418.79096"/>
+			<Orientation y="-0.78266"/>
+			<Actor seed="4337"/>
+		</Entity>
+		<Entity uid="5886">
+			<Template>gaia/fish/generic</Template>
+			<Player>0</Player>
+			<Position x="1238.73572" z="457.04133"/>
+			<Orientation y="-0.31325"/>
+			<Actor seed="4316"/>
+		</Entity>
+		<Entity uid="5887">
+			<Template>gaia/fish/generic</Template>
+			<Player>0</Player>
+			<Position x="1200.79725" z="480.62452"/>
+			<Orientation y="0.37964"/>
+			<Actor seed="4316"/>
+		</Entity>
+		<Entity uid="5888">
+			<Template>gaia/fish/generic</Template>
+			<Player>0</Player>
+			<Position x="1348.4297" z="114.08942"/>
+			<Orientation y="-4.74463"/>
+			<Actor seed="4297"/>
+		</Entity>
+		<Entity uid="5889">
+			<Template>gaia/fish/generic</Template>
+			<Player>0</Player>
+			<Position x="1293.4795" z="147.12021"/>
+			<Orientation y="-0.78266"/>
+			<Actor seed="4337"/>
+		</Entity>
+		<Entity uid="5890">
+			<Template>gaia/fish/generic</Template>
+			<Player>0</Player>
+			<Position x="1346.55201" z="185.37058"/>
+			<Orientation y="-0.31325"/>
+			<Actor seed="4316"/>
+		</Entity>
+		<Entity uid="5891">
+			<Template>gaia/fish/generic</Template>
+			<Player>0</Player>
+			<Position x="1308.61353" z="208.95377"/>
+			<Orientation y="0.37964"/>
+			<Actor seed="4316"/>
+		</Entity>
+		<Entity uid="5892">
+			<Template>gaia/fish/generic</Template>
+			<Player>0</Player>
+			<Position x="777.79987" z="406.16764"/>
+			<Orientation y="-4.74463"/>
+			<Actor seed="4297"/>
+		</Entity>
+		<Entity uid="5893">
+			<Template>gaia/fish/generic</Template>
+			<Player>0</Player>
+			<Position x="722.84968" z="439.19843"/>
+			<Orientation y="-0.78266"/>
+			<Actor seed="4337"/>
+		</Entity>
+		<Entity uid="5894">
+			<Template>gaia/fish/generic</Template>
+			<Player>0</Player>
+			<Position x="775.92219" z="477.4488"/>
+			<Orientation y="-0.31325"/>
+			<Actor seed="4316"/>
+		</Entity>
+		<Entity uid="5895">
+			<Template>gaia/fish/generic</Template>
+			<Player>0</Player>
+			<Position x="737.98371" z="501.03199"/>
+			<Orientation y="0.37964"/>
+			<Actor seed="4316"/>
 		</Entity>
 	</Entities>
 	<Paths/>
