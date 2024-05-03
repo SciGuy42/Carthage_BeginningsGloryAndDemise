@@ -40,13 +40,13 @@
 {
   "AISeed": 0,
   "CircularMap": true,
-  "Description": "After departing Crete, you contknue to sail West, in search of a new land to settle. A storm is ahead and you take the small fleet north on the coast of the main continent, in lands you know little about. upon making landfall, you are greeted with dignity by an Italian tribe who are happy to ressuply you -- but they need help themselves. Their land has been under pressure from Celtic tribes and they ask for yuor assistance in defeating them. You have a feeling your relations with the Italics will last for a long time and as you need allies, you agree. \n\nYour objective is to assist the Italics with destroying the Celtic settlements in the region. There are three of them, two to the south-east and one directly to the east on the shoreline. Beware of sea raiders. \n\nAI Settinggs: Celts and Italians should be Petra AI with a difficulty of your choice. All others should be Sandbox. ",
+  "Description": "After departing Crete, you continue to sail West, in search of a new land to settle. A storm is ahead and you take the small fleet north on the coast of the main continent, in lands you know little about. upon making landfall, you are greeted with dignity by an Italian tribe who are happy to resupply you -- but they need help themselves. Their land has been under pressure from Celtic tribes and they ask for your assistance in defeating them. You have a feeling your relations with the Italics will last for a long time and as you need allies, you agree.\n\nYour objective is to assist the Italics with destroying the Celtic settlements in the region. There are three of them, two to the south-east and one directly to the east on the shoreline. Beware of sea raiders.\n\nAI Settings: Celts and Italians should be Petra AI with a difficulty of your choice. All others should be Sandbox.",
   "Keywords": [],
   "LockTeams": true,
   "Name": "Carthage 5 - New Friends",
   "Nomad": true,
   "PlayerData": [
-    null,
+    "",
     {
       "Civ": "cart",
       "Name": "Elisa",
